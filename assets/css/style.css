@@ -1,0 +1,128 @@
+.course-item{
+    padding: 10px 5px;
+}
+.course-inner{
+    border: 1px solid rgba(51, 51, 51, 0.1);
+}
+.course-img{
+    padding-top: 50%;
+    position: relative;
+    border-radius: 2px 2px 0 0;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+h3 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #333333;
+    line-height: 1.2;
+    margin: 0 0 9px 0;
+    text-align: right;
+}
+.course-items {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    text-align: right;
+}
+.term-filter-search {
+    width: 100%;
+    cursor: pointer;
+}
+.wrap-term-and-sum {
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    /* justify-content: space-between; */
+    position: relative;
+    text-align: justify;
+    line-height: 0;
+    vertical-align: middle;
+}
+
+element.style {
+}
+.rtl .term-name {
+    text-align: right;
+}
+.term-name {
+    padding-right: 6px;
+    line-height: 24px;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: calc(100% - 50px);
+    text-align: left;
+}
+.sum {
+    opacity: 0.7;
+}
+.checkbox-filter-search {
+    position: absolute;
+    opacity: 0;
+}
+.wrap-term-and-sum:before {
+    content: "\2713";
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 13px;
+    width: 13px;
+    display: inline-block;
+    right: 0;
+    border-radius: 2px;
+    top: 50%;
+    /*font-family: "Font Awesome 5 Free";*/
+    font-weight: 900;
+    color: transparent;
+    font-size: 9px;
+    text-align: center;
+    padding-left: 1px;
+    line-height: 11px;
+    vertical-align: middle;
+}
+.checkbox-filter-search:checked ~ .wrap-term-and-sum:before {
+    background-color: #3CA0AE;
+    border-color: #3ca0ae;
+    color: #fff;
+}
+.wrap-term-and-sum:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+#headerimg{display: none}
+header {
+    background: #000;
+}
+a.brand img {
+    max-width: 300px;
+    padding-bottom: 20px;
+}
+/* single - page */
+
+.banner {
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+
+
+h1.title {
+    color: #ffff;
+    padding-top: 100px;
+}
+
+.dates {
+    color: #FFF;
+    font-size: 21px;
+}
+
+.content, .trailer {
+    padding: 30px 0 30px 30px;
+}
+.content-title {
+    font-weight: bold;
+    font-size: 22px;
+}
